@@ -1,6 +1,6 @@
 # Copyright (c) 2017-2019, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2019-09-06
+# Last updated: 2019-11-02
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -1430,8 +1430,25 @@
 # Facebook End
 
 # Fastly Start
+151.101.1.194	codeproject.global.ssl.fastly.net
+151.101.1.194	github.global.ssl.fastly.net
 151.101.110.79	freetls.fastly.net
+151.101.230.79	aosc-repo.freetls.fastly.net
+151.101.230.79	bt-wpstatic.freetls.fastly.net
+151.101.230.79	chairish-prod.freetls.fastly.net
+151.101.230.79	codeproject.freetls.fastly.net
+151.101.230.79	finanzen.freetls.fastly.net
+151.101.230.79	github-atom-io-herokuapp-com.freetls.fastly.net
+151.101.230.79	gl-canary.freetls.fastly.net
+151.101.230.79	grokker-static.freetls.fastly.net
+151.101.230.79	images-production.freetls.fastly.net
+151.101.230.79	img-mdpr.freetls.fastly.net
+151.101.230.79	lakvod-508179.freetls.fastly.net
+151.101.230.79	oldies-cdn.freetls.fastly.net
+151.101.230.79	prehistory101.freetls.fastly.net
 151.101.230.79	tampermonkey.freetls.fastly.net
+151.101.230.79	villagevoice.freetls.fastly.net
+151.101.230.79	zcdn.freetls.fastly.net
 # Fastly End
 
 # Feedly Start
@@ -1451,6 +1468,7 @@
 13.250.177.223	gist.github.com
 13.250.177.223	github.com
 13.229.188.59	www.github.com
+151.101.56.133	raw.githubusercontent.com
 # Github End
 
 # Gmail Start
@@ -1479,10 +1497,10 @@
 
 # Google Apis Start
 216.58.204.202	www.googleapis.com
+216.58.204.202	android.googleapis.com
 172.217.168.202	ajax.googleapis.com
 108.177.127.201	fonts.googleapis.com
 172.217.168.202	googleapis.com
-172.217.168.202	android.googleapis.com
 172.217.168.202	appinvite-pa.googleapis.com
 172.217.168.202	appinvite-ipv4-pa.googleapis.com
 172.217.168.202	redirector-bigcache.googleapis.com
@@ -3737,6 +3755,7 @@
 # HumbleBundle Start
 54.249.82.168	humble.pubnub.com
 104.20.34.236	humblebundle.com
+104.20.34.236	www.humblebundle.com
 52.36.140.12	pubnub.com
 # HumbleBundle End
 
@@ -4645,6 +4664,8 @@
 117.18.237.70	abs.twimg.com
 117.18.237.70	pbs.twimg.com
 117.18.237.70	ton.twimg.com
+117.18.237.70	video.twimg.com
+117.18.237.70	cdn.syndication.twimg.com
 # Twitter End
 
 # Uncyclopedia Start
@@ -4654,6 +4675,11 @@
 # Up Media Start
 192.124.249.65	www.upmedia.mg
 # Up Media End
+
+# urbandictionary Start
+151.101.120.207	www.urbandictionary.com
+151.101.240.207	api.urbandictionary.com
+# urbandictionary End
 
 # Vimeo Start
 151.101.0.217	vimeo.com
