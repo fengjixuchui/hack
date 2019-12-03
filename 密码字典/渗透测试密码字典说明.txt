@@ -3,3 +3,283 @@
 密码:ddosi.com
 
 解压密码  www.ddosi.com
+
+
+-------------------------------------------------------------------
+# 内容：
+
+1. Port                       # 出现频率较高的端口号，平时我是使用Telnet来扫描端口，就没有每个端口号进行换行。
+
+2. User                       # 主要是一些从网络上收集的用户密码。
+
+       /IDC_password/         # IDC 爆破密码
+       /User_name/            # 用户名
+       /User_password/        # 用户密码
+
+3. Web_Middleware_other       # 一些中间件、数据库、操作系统
+
+       /db2/                  # db2 爆破
+       /generic/
+       /oracle/               # generic-listpairs 爆破
+       /postgres/             # postgres 爆破
+       /tomcat/               # tomcat 爆破
+       /unix-os/              # unix 爆破
+       /phpbb/                # phpbb 爆破
+       /userAgents/           # useragent
+
+
+4. Protocol_password          # 协议 例如：SNMP
+
+5. Xss_payload                # 一些Xss payload
+
+6. Sessionid                  # Sessionid 字典
+
+7. Errors                     # 一些错误信息。ps：数据库、中间件等
+
+8. Subdomains                 # 子域名。 ps：这个字典应该是老外的字典。
+
+        /CcTLD/               # CcTLD
+        /gTLD/                # gTLD
+        /Subdomains_En/       # 普通的子域名。  ps：这个东西只能凑合用用，不是很全。
+
+9. Fuzz                       # 一些Fuzz的内容。 ps：json、xml、callback等  里边内容太多了，就自己看文件名吧。
+
+10. Web_shell                 # 一些webshell、常用密码、还有路径。
+
+11. Xss_payload               # Xss paylod。
+
+12. Path                      # 文件名、后缀、路径等
+
+13. Other                     # 其他内容。 ps：主要是老外的
+
+14. Patch                     # 路径、文件等
+
+++++++++++++++++++++++++++++++++++++++++++++++=++++++++++++++++++++
+目录:
+
+
+Explo1t Dict
+│
+├─Errors
+│      errors.txt
+│
+├─Fuzz
+│      Agreement.txt
+│      alt-extensions-asp.txt
+│      alt-extensions-coldfusion.txt
+│      alt-extensions-jsp.txt
+│      alt-extensions-perl.txt
+│      alt-extensions-php.txt
+│      amazon.txt
+│      breakpoint-ignores.txt
+│      callback.txt
+│      callback_dict.txt
+│      char.txt
+│      command-execution-unix.txt
+│      command-injection-template.txt
+│      Commands-Linux.txt
+│      Commands-OSX.txt
+│      Commands-Windows.txt
+│      Commands-WindowsPowershell.txt
+│      common-ms-httpd-log-locations.txt
+│      common-unix-httpd-log-locations.txt
+│      CommonDebugParamNames.txt
+│      CommonMethodNames.txt
+│      crlf-injection.txt
+│      DebugParams.Json.fuzz.txt
+│      debug_param_name.txt
+│      errors.txt
+│      extensions.txt
+│      file-ul-filter-bypass-commonly-writable-directories.txt
+│      file-ul-filter-bypass-microsoft-asp-filetype-bf.txt
+│      file-ul-filter-bypass-microsoft-asp.txt
+│      file-ul-filter-bypass-ms-php.txt
+│      file-ul-filter-bypass-x-platform-generic.txt
+│      file-ul-filter-bypass-x-platform-php.txt
+│      full_hex.txt
+│      HexValsAllBytes.txt
+│      hpp.txt
+│      http-header-cache-poison.txt
+│      http-protocol-methods.txt
+│      http-request-header-field-names.txt
+│      http-response-header-field-names.txt
+│      image_size.txt
+│      invalid-filenames-linux.txt
+│      invalid-filenames-microsoft.txt
+│      invalid-filesystem-chars-microsoft.txt
+│      invalid-filesystem-chars-osx.txt
+│      JSON_Fuzzing.txt
+│      known-uri-types.txt
+│      lfi-list.txt
+│      localhost.txt
+│      MimeTypes.txt
+│      nsa-wordlist.txt
+│      NullByteRepresentations.txt
+│      OSCommandInject.Windows.txt
+│      pii.readme.txt
+│      pii.txt
+│      redirect-injection-template.txt
+│      redirect-urls-template.txt
+│      server-side-includes-generic.txt
+│      sessionid.txt
+│      shell-delimiters.txt
+│      shell-operators.txt
+│      source-disc-cmd-exec-traversal.txt
+│      Url-SSRF.txt
+│      Url_redirct.txt
+│      useful-commands-unix.txt
+│      useful-commands-windows.txt
+│      user-agents.txt
+│      UserAgentListCommon.txt
+│      UserAgentListLarge.txt
+│      UserAgents.txt
+│      XXE.txt
+│
+├─Other
+│      faithwriters.txt
+│      john.txt
+│      namelist.txt
+│      twitter.txt
+│      weaksauce.txt
+│
+├─Patch
+│  │  admin.txt
+│  │  asp.txt
+│  │  aspx.txt
+│  │  back.txt
+│  │  cfm.txt
+│  │  cgi.txt
+│  │  common.txt
+│  │  dir.txt
+│  │  dir2.txt
+│  │  dir_big.txt
+│  │  Fck编辑器.txt
+│  │  fuckyou.txt
+│  │  fuckyou2.txt
+│  │  jsp.txt
+│  │  mdb.txt
+│  │  php.txt
+│  │  py.txt
+│  │  rar.txt
+│  │  tomcat.txt
+│  │  weblogic.txt
+│  │  后门扫描.txt
+│  │
+│  └─跑表
+│          数据.txt
+│
+├─Port
+│      Port.txt
+│
+├─Protocol_password
+│      Snmp_password.txt
+│
+├─Sessionid
+│      sessionid.txt
+│
+├─Subdomains
+│      CcTLD.txt
+│      gTLD.txt
+│      Subdomains_En.txt
+│
+├─User
+│  ├─IDC_password
+│  │      IDC_password_1.txt
+│  │      IDC_password_2.txt
+│  │      IDC_password_3.txt
+│  │      IDC_password_4.txt
+│  │      IDC_password_5.txt
+│  │      IDC_password_6.txt
+│  │
+│  ├─User_name
+│  │      China_name.txt
+│  │      QQ_Mail.txt
+│  │      renkoutop.txt
+│  │      top10W.txt
+│  │      top500username.txt
+│  │      username.txt
+│  │      User_name_En.txt
+│  │      常用mail.txt
+│  │
+│  └─User_password
+│          3389爆破密码.txt
+│          Comprehensive_password_10_En.txt
+│          Comprehensive_password_11_En.txt
+│          Comprehensive_password_1_En.txt
+│          Comprehensive_password_2_En.txt
+│          Comprehensive_password_3_En.txt
+│          Comprehensive_password_4_En.txt
+│          Comprehensive_password_5_En.txt
+│          Comprehensive_password_6_En.txt
+│          Comprehensive_password_7_En.txt
+│          Comprehensive_password_8_En.txt
+│          Comprehensive_password_9_En.txt
+│          jiahouzhui.py
+│          NT密码.txt
+│          passwords_1.txt
+│          top100password.txt
+│          Wail_passwd.txt
+│          Weak_password.txt
+│          密码.txt
+│          密码1.txt
+│          常用_passwd.txt
+│          常用密码1.txt
+│          常用运维系统用户名、密码.txt
+│
+├─Web_Middleware_other
+│  │  liunx_users_dictionaries.txt
+│  │  weblogic默认用户名、密码.txt
+│  │
+│  ├─db2
+│  │      db2_default_pass.txt
+│  │      db2_default_user.txt
+│  │      db2_default_userpass.txt
+│  │
+│  ├─generic-listpairs
+│  │      http_default_pass.txt
+│  │      http_default_userpass.txt
+│  │      http_default_users.txt
+│  │
+│  ├─oracle
+│  │      oracle_logins.txt
+│  │      oracle_login_password.txt
+│  │      oracle_passwords.txt
+│  │      _hci_oracle_passwords.txt
+│  │      _oracle_default_passwords.txt
+│  │
+│  ├─phpbb
+│  │      phpbb.txt
+│  │
+│  ├─postgres
+│  │      postgres_default_pass.txt
+│  │      postgres_default_user.txt
+│  │      postgres_default_userpass.txt
+│  │
+│  ├─tomcat
+│  │      tomcat_mgr_default_pass.txt
+│  │      tomcat_mgr_default_userpass.txt
+│  │      tomcat_mgr_default_users.txt
+│  │
+│  ├─unix-os
+│  │      unix_passwords.txt
+│  │      unix_users.txt
+│  │
+│  └─userAgents
+│          UserAgents.txt
+│
+├─Web_shell
+│      list.txt
+│      webshellPassword.txt
+│      webshell常用密码.txt
+│
+└─Xss_payload
+        all-encodings-of-lt.txt
+        default-javascript-event-attributes.txt
+        easyXssPayload.txt
+        html-event-attributes.txt
+        JHADDIX_XSS_WITH_CONTEXT.doc.txt
+        README.txt
+        xss-other.txt
+        xss-rsnake.txt
+        xss-uri.txt
+        XSSPolyglot.txt
