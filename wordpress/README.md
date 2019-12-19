@@ -3,9 +3,9 @@
 <h1>2019年12月19日 : 更新wordpress 5.3.2</h1>
 
 下载地址1:
-https://le6-my.sharepoint.com/:u:/g/personal/s1cniixn7_sysu_edu_pl/EaeVSBNN4B9Gk1prJih7ZZgBAz61VhLZrmE6FVywTmvkKA?e=A11Dag
+https://le6-my.sharepoint.com/:u:/g/personal/s1cniixn7_sysu_edu_pl/EWdATJ6wocZBiwuJWjfwj_sBFmr-OvbPSjjI1FgBed1mFQ?e=c0fQop
 
-下载地址2: https://www.lanzous.com/i84brte
+下载地址2: https://www.lanzous.com/i84cmef
 <br />文件名: wordpress-5.3.2-zh_CN.zip
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++1
