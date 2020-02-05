@@ -1,5 +1,5 @@
 <h1>hosts修改工具</h1>
-<pr>
+<code>
 title  雨苁 www.ddosi.com    QQ569743  别认输,因为没人希望你赢
 @echo off
 mode con lines=100 cols=90
@@ -87,4 +87,4 @@ goto end
 :end
 echo 请按任意键退出.
 @Pause>nul
-</pr>
+</code>
