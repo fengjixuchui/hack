@@ -271,3 +271,5 @@ windows提权-快速查找exp（第一课）.pdf</br>
 九、C&C（命令控制）
 
 十、Exfiltration（信息窃取）
+
+<h2>下载地址: https://www.lanzous.com/i98gxne 密码:雨苁 </h2>
