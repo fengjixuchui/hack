@@ -273,3 +273,12 @@ windows提权-快速查找exp（第一课）.pdf</br>
 十、Exfiltration（信息窃取）
 
 <h2>下载地址: https://www.lanzous.com/i98gxne 密码:雨苁 </h2>
+<h1>2020年2月12日</h1>
+<h1>burpsuite_pro_v2020.1 破解版下载</h1>
+
+下载地址①: 蓝奏云下载地址:  https://www.lanzous.com/b00nbhd1g
+密码:NSA  
+burp2020.1版本2030年过期(key有效期为10年)  
+
+
+
