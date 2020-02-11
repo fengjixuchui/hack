@@ -1,7 +1,5 @@
 # hack 渗透测试资源库 收集各类渗透测试 信息安全相关的书籍 视频 思维导图
-
-QQ 569743
-https://www.ddosi.com/
+<!DOCTYPE html> <html lang="zh"> <head> <meta charset="utf-8"/></head> <body><table> <thead> <tr> <th style="text-align:center"><a href="https://www.ddosi.com/" title="www.ddosi.com">www.ddosi.com</a></th> <th style="text-align:center"><a href="tencent://message/?uin=569743" title="QQ569743">QQ569743</a></th> </tr> </thead> <tbody> <tr> <th style="text-align:center">雨苁</th> <th style="text-align:center"><a href="mailto:cpu@usa.com" title="cpu@usa.com">cpu@usa.com</a></th> </tr> <tr> <th style="text-align:center"><a href="https://github.com/ddosi/hack" title="github.com/ddosi/hack">github.com/ddosi/hack</a></th> <th style="text-align:center">NSA</th> </tr> </tbody> </table> </body> </html>
 
 爆破 未授权访问 远程代码执行 Java反序列 webshell 弱口令 认证绕过 缓冲区溢出注入攻击 Shift后门 TNS注入攻击
 
