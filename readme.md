@@ -20,7 +20,7 @@ Web 应用安全联合威胁分类
 
 情报收集 威胁建模 漏洞分析 漏洞利用 深度利用 书面报告 恶意软件集合 匿名代理 蜜罐 恶意软件样本库 开源威胁情报 检测与分类 在线扫描与沙盒 域名分析 浏览器恶意软件 维基解密 MD5
 
-判断是否有注入﻿ 初步判断是否是mssql 判断数据库系统 注入参数是字符 搜索时没过滤参数的 猜数据库 猜字段 猜字段中记录长度﻿ 猜字段的ascii值（access） 猜字段的ascii值（mssql） 测试权限结构（mssql）添加mssql和系统的帐户 遍历目录
+判断是否有注入 初步判断是否是mssql 判断数据库系统 注入参数是字符 搜索时没过滤参数的 猜数据库 猜字段 猜字段中记录长度 猜字段的ascii值（access） 猜字段的ascii值（mssql） 测试权限结构（mssql）添加mssql和系统的帐户 遍历目录
 渗透测试信息收集续 服务器信息 DNS枚举 敏感目录发掘 主机发现
 端口扫描
 版本侦测
@@ -214,14 +214,76 @@ windows提权-快速查找exp（第一课）.pdf</br>
 高级持续渗透-第四季关于后门（第六十课）.pdf
 
 <h1>2020年2月11日</h1>
-<h1>ATTCK-PenTester-Book:根据ATT&CK知识体系编制的长达400页的渗透手册</h1>
+Editor.md
+开源在线 Markdown 编辑器
 
+<h1>ATTCK-PenTester-Book:根据ATT&CK知识体系编制的长达400页的渗透手册</h1>
+​
+ATTCK-PenTester-Book是由DeadEye团队联合多家安全公司及安全团队的安全研究人员（名单见文末），根据ATT&CK知识体系整理编辑的一份长达400多页的渗透参考手册，其中包含了大量的实验环境设置方法及图文的解释说明，因此即便你是新手也能很好的理解并参照手册自己动手实践。该手册主要包含以下十个部分的内容：
+​
+<h3>渗透手册完整版下载地址①：</h3>https://github.com/ddosi/hack/raw/master/book/ATT%26CK%E6%89%8B%E5%86%8C.pdf
+<h3>下载地址②: </h3>下载:https://www.lanzous.com/i98gxne 密码:雨苁
+​
+​
+一、Initial Access（入口点）
+(1)水坑攻击
+分析并了解目标的上网活动规律，寻找目标经常访问的网站的漏洞，利用漏洞在该网站植入恶意代码（陷阱、水坑），在目标进行访问时攻击形成。
+​
+多种可能被植入的代码，包括：
+​
+通过注入某些形式的恶意代码。例如：JavaScript、iframe、跨站脚本等
+​
+植入恶意的广告链接
+​
+内置的 Web 应用程序接口用于插入任何其他类型的对象，该对象可用于显示 Web 内容或包含在访问客户端上执行的脚本（例如，论坛帖子，评论和其他用户可控制的 Web 内容），重定向用户所经常访问的站点到恶意站点
+​
+1. 在页面嵌入存储型 XSS，获得用户 cookie 信息
+​
+编写具有恶意功能的 javascript 语句，例如获取登录用户 cookie、内网 ip、截屏、网页源代码等操作，配合 XSS 平台可查看获取到的信息。
+​
+2. phpstudy backdoor
+​
+2019 年 9 月 20 日杭州公安微信公众账号发布了“杭州警方通报打击涉网违法犯罪暨“净网 2019”专项行动战果”的文章，文章里说明 phpstudy 存在“后
+​
+门”，攻击者通过在 phpstudy 2016 php5.4 和 phpstudy2018 php-5.2.17 和php-5.4.45 中植入后门并发布至互联网，导致大量使用 phpstudy 的用户成
+​
+为肉鸡。
+​
+3. JSONP 水坑攻击
+​
+4. Adobe flash player 28（CVE-2018-4878）
+​
+攻击者通过构造特殊的 Flash 链接，当用户用浏览器/邮件/Office 访问此Flash 链接时，会被“远程代码执行”，并且直接被 getshell。
+​
+5. Beef 攻击框架
+​
+(2)利用公开漏洞
+利用软件、数据库、中间件、第三方库或存在漏洞的库等公开的漏洞，对目标系统进行攻击，以达到攻击未及时修补或升级的信息系统。
+​
+(3)外部远程服务
+(4)渗透到其他网络介质
+(5)硬件攻击
+二、Execution（命令执行）
+命令执行包括（远程动态数据交换、命令行界面、本地-Signed Script Proxy Execution(签名脚本代理执行)、chm、CMSTP、本地-CPL、本地-Forfiles、本地-IEExec、InfDefaultInstall、InstaIIUtil、MSHTA、MSIexec、Pcalua、Regsvcs/Regasm（.NET 服务安装工具/程序集注册工具）、regsv***、Rundll32、Scripting(脚本执行)、SyncAppvPublishingServer、Trusted Developer Utilities（值得信赖的开发者工具）、Winword、XSL Script Processing（XSL 脚本处理）、XSL Script Processing（XSL 脚本处理）、本地任务调度、PsExec、计划任务、用户图形化界面、DCOM 利用、Powershell、SMBexec、WinRM、wmic、Language LUA in Files .wlua、INF-SCT、Reflection.Assembly、msconfig、sigverif.exe、DXCap.exe、Register-cimprovider.exe (T1218 )、xls mimikatz、WMI (T1047)（详见完整版）
+​
+三、Persistence（持久化）
+Office -SVG (T1137)
+​
+ADS 数据流 (T1137)
+​
+ADS 数据流 (T1137)
+​
+RunOnceEx (T1137)
+​
+winlogon_regedit (T1137 ) (T1004)
+​
+ATTCK-PenTester-Book:根据ATT&CK知识体系编制的长达400页的渗透手册
 ATTCK-PenTester-Book是由DeadEye团队联合多家安全公司及安全团队的安全研究人员（名单见文末），根据ATT&CK知识体系整理编辑的一份长达400多页的渗透参考手册，其中包含了大量的实验环境设置方法及图文的解释说明，因此即便你是新手也能很好的理解并参照手册自己动手实践。该手册主要包含以下十个部分的内容：
 
-<h3>渗透手册完整版下载地址①：</h3>ATTCK-PenTester-Book.pdf
-<h3>下载地址②: </h3>下载:https://www.lanzous.com/i98gxne 密码:雨苁
-
-
+渗透手册完整版下载地址①：
+https://github.com/ddosi/hack/raw/master/book/ATT%26CK%E6%89%8B%E5%86%8C.pdf
+下载地址②:
+下载:https://www.lanzous.com/i98gxne 密码:雨苁
 一、Initial Access（入口点）
 (1)水坑攻击
 分析并了解目标的上网活动规律，寻找目标经常访问的网站的漏洞，利用漏洞在该网站植入恶意代码（陷阱、水坑），在目标进行访问时攻击形成。
@@ -234,26 +296,23 @@ ATTCK-PenTester-Book是由DeadEye团队联合多家安全公司及安全团队�
 
 内置的 Web 应用程序接口用于插入任何其他类型的对象，该对象可用于显示 Web 内容或包含在访问客户端上执行的脚本（例如，论坛帖子，评论和其他用户可控制的 Web 内容），重定向用户所经常访问的站点到恶意站点
 
-1. 在页面嵌入存储型 XSS，获得用户 cookie 信息
-
+在页面嵌入存储型 XSS，获得用户 cookie 信息
 编写具有恶意功能的 javascript 语句，例如获取登录用户 cookie、内网 ip、截屏、网页源代码等操作，配合 XSS 平台可查看获取到的信息。
 
-2. phpstudy backdoor
-
+phpstudy backdoor
 2019 年 9 月 20 日杭州公安微信公众账号发布了“杭州警方通报打击涉网违法犯罪暨“净网 2019”专项行动战果”的文章，文章里说明 phpstudy 存在“后
 
 门”，攻击者通过在 phpstudy 2016 php5.4 和 phpstudy2018 php-5.2.17 和php-5.4.45 中植入后门并发布至互联网，导致大量使用 phpstudy 的用户成
 
 为肉鸡。
 
-3. JSONP 水坑攻击
+JSONP 水坑攻击
 
-4. Adobe flash player 28（CVE-2018-4878）
+Adobe flash player 28（CVE-2018-4878）
 
 攻击者通过构造特殊的 Flash 链接，当用户用浏览器/邮件/Office 访问此Flash 链接时，会被“远程代码执行”，并且直接被 getshell。
 
-5. Beef 攻击框架
-
+Beef 攻击框架
 (2)利用公开漏洞
 利用软件、数据库、中间件、第三方库或存在漏洞的库等公开的漏洞，对目标系统进行攻击，以达到攻击未及时修补或升级的信息系统。
 
@@ -261,7 +320,7 @@ ATTCK-PenTester-Book是由DeadEye团队联合多家安全公司及安全团队�
 (4)渗透到其他网络介质
 (5)硬件攻击
 二、Execution（命令执行）
-命令执行包括（远程动态数据交换、命令行界面、本地-Signed Script Proxy Execution(签名脚本代理执行)、chm、CMSTP、本地-CPL、本地-Forfiles、本地-IEExec、InfDefaultInstall、InstaIIUtil、MSHTA、MSIexec、Pcalua、Regsvcs/Regasm（.NET 服务安装工具/程序集注册工具）、regsv***、Rundll32、Scripting(脚本执行)、SyncAppvPublishingServer、Trusted Developer Utilities（值得信赖的开发者工具）、Winword、XSL Script Processing（XSL 脚本处理）、XSL Script Processing（XSL 脚本处理）、本地任务调度、PsExec、计划任务、用户图形化界面、DCOM 利用、Powershell、SMBexec、WinRM、wmic、Language LUA in Files .wlua、INF-SCT、Reflection.Assembly、msconfig、sigverif.exe、DXCap.exe、Register-cimprovider.exe (T1218 )、xls mimikatz、WMI (T1047)（详见完整版）
+命令执行包括（远程动态数据交换、命令行界面、本地-Signed Script Proxy Execution(签名脚本代理执行)、chm、CMSTP、本地-CPL、本地-Forfiles、本地-IEExec、InfDefaultInstall、InstaIIUtil、MSHTA、MSIexec、Pcalua、Regsvcs/Regasm（.NET 服务安装工具/程序集注册工具）、regsv*、Rundll32、Scripting(脚本执行)、SyncAppvPublishingServer、Trusted Developer Utilities（值得信赖的开发者工具）、Winword、XSL Script Processing（XSL 脚本处理）、XSL Script Processing（XSL 脚本处理）、本地任务调度、PsExec、计划任务、用户图形化界面、DCOM 利用、Powershell、SMBexec、WinRM、wmic、Language LUA in Files .wlua、INF-SCT、Reflection.Assembly、msconfig、sigverif.exe、DXCap.exe、Register-cimprovider.exe (T1218 )、xls mimikatz、WMI (T1047)（详见完整版）
 
 三、Persistence（持久化）
 Office -SVG (T1137)
@@ -310,7 +369,7 @@ windows 下利用注册表进行权限维持、BootExecute 密钥、用户名密
 权限提升的方法包括：账户权限介绍Windows UAC、Linux、存储凭证、Windows 内核漏洞利用、DLL 注入、弱服务权限、DLL 劫持、权限提升技术代号 Hot potato、Juicy Potato (T1134 – 访问令牌操作 )、权限提升知识上下文获取之过程分享、token_privEsc、窃取 Token To GetSystem、Windows API 和模拟(T1134)、ALPC (T1068)、组策略首选项、不带引号的服务路径、Always Install Elevated 策略、令牌操作（token）、不安全的注册表权限、GET SYSRET（详见完整版）
 
 五、Defense Evasion（绕过防御）
-绕过防御可通过以下应用程序或方法：MSBuild.exe、Installutil.exe、mshta.exe、Msiexec.exe、wmic.exe、Atbroker.exe、Bash.exe、Bitsadmin.exe、Cmd.exe、Cmstp.exe、Diskshadow.exe、Dnscmd.exe、Extexport.exe、Forfiles.exe、Ftp.exe、Gpscript.exe、Hh.exe、Ie4uinit.exe、Ieexec.exe、Infdefaultinstall.exe、Installutil.exe、Mavinject.exe、Microsoft.Workflow.Compiler.exe、Mmc.exe、Msconfig.exe、Msdt.exe、Mshta.exe、Msiexec.exe、Odbcconf.exe、Pcalua.exe、Presentationhost.exe、Regasm.exe、Register-cimprovider.exe、Regsvcs.exe、Regsv***.exe、Rundll32.exe、COM 劫持、进程注入 Propagate( T1055 TA0005 TA0004 )、进程注入 InfectPE( T1055 TA0005 TA0004 )、cscript ( TA0002 TA0005 T1216 )、Mavinject(T1218)（详见完整版）
+绕过防御可通过以下应用程序或方法：MSBuild.exe、Installutil.exe、mshta.exe、Msiexec.exe、wmic.exe、Atbroker.exe、Bash.exe、Bitsadmin.exe、Cmd.exe、Cmstp.exe、Diskshadow.exe、Dnscmd.exe、Extexport.exe、Forfiles.exe、Ftp.exe、Gpscript.exe、Hh.exe、Ie4uinit.exe、Ieexec.exe、Infdefaultinstall.exe、Installutil.exe、Mavinject.exe、Microsoft.Workflow.Compiler.exe、Mmc.exe、Msconfig.exe、Msdt.exe、Mshta.exe、Msiexec.exe、Odbcconf.exe、Pcalua.exe、Presentationhost.exe、Regasm.exe、Register-cimprovider.exe、Regsvcs.exe、Regsv*.exe、Rundll32.exe、COM 劫持、进程注入 Propagate( T1055 TA0005 TA0004 )、进程注入 InfectPE( T1055 TA0005 TA0004 )、cscript ( TA0002 TA0005 T1216 )、Mavinject(T1218)（详见完整版）
 
 六、Credential Access（获取凭证）
 包含以下部分内容：
@@ -405,5 +464,3 @@ Windows 分布式组件对象模型 DCOM (T1175)
 
 参考: https://attack.mitre.org/
 
-<h3>渗透手册完整版下载地址①：</h3>ATTCK-PenTester-Book.pdf
-<h3>下载地址②: https://www.lanzous.com/i98gxne 密码:雨苁</h3>
