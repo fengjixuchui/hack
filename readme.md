@@ -1,5 +1,11 @@
 # hack 渗透测试资源库 收集各类渗透测试 信息安全相关的书籍 视频 思维导图
-<!DOCTYPE html> <html lang="zh"> <head> <meta charset="utf-8"/> </head> <body><table> <thead> <tr> <th style="text-align:center"><a href="https://www.ddosi.com/" title="www.ddosi.com">www.ddosi.com</a></th> <th style="text-align:center"><a href="tencent://message/?uin=569743" title="QQ569743">QQ569743</a></th> <th style="text-align:center">Root</th> <th style="text-align:center">FBI</th> <th style="text-align:center">Anonymous</th> </tr> </thead> <tbody> <tr> <th style="text-align:center">雨苁</th> <th style="text-align:center"><a href="mailto:cpu@usa.com" title="cpu@usa.com">cpu@usa.com</a></th> <th style="text-align:center">admin</th> <th style="text-align:center">CIA</th> <th style="text-align:center">onion &amp; Tor</th> </tr> <tr> <th style="text-align:center"><a href="https://github.com/ddosi/hack" title="github.com/ddosi/hack">github.com/ddosi/hack</a></th> <th style="text-align:center">NSA</th> <th style="text-align:center">webshell</th> <th style="text-align:center">NSA</th> <th style="text-align:center">Hackerone</th> </tr> </tbody> </table> </body> </html>
+
+|$9999999999999999|$888888888|$77777|$66666|$55555555|
+| :------------: | :------------: | :------------: | :------------: | :------------: |
+| [www.ddosi.com](https://www.ddosi.com/ "www.ddosi.com")  |   [QQ569743](tencent://message/?uin=569743 "QQ569743") |  Root  |  FBI  |  Anonymous  |
+|  雨苁 |  [cpu@usa.com](mailto:cpu@usa.com "cpu@usa.com") |  admin  |  CIA  |onion  |
+|  [github.com/ddosi/hack](https://github.com/ddosi/hack "github.com/ddosi/hack") |  NSA  |  webshell  |[Html](https://www.ddosi.com/yj.html)    |  Hackerone  |
+|[Joker](https://www.ddosi.com/b31/)|Exploit|[Tor](https://www.ddosi.com/tag/%e6%9a%97%e7%bd%91/)|NSA|[passwords](https://www.ddosi.com/mm.html)|
 
 爆破 未授权访问 远程代码执行 Java反序列 webshell 弱口令 认证绕过 缓冲区溢出注入攻击 Shift后门 TNS注入攻击
 
