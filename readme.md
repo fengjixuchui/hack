@@ -244,3 +244,30 @@ windows提权-快速查找exp（第一课）.pdf</br>
 高级持续渗透-第三季关于后门补充二（第五十九课）.pdf</br>
 高级持续渗透-第二季关于后门补充一（第五十八课）.pdf</br>
 高级持续渗透-第四季关于后门（第六十课）.pdf
+
+
+<h1>2020年2月11日</h1>
+<h1>ATTCK-PenTester-Book</h1>
+
+
+### 目录：
+
+一、Initial Access（入口点）
+
+二、Execution（命令执行）
+
+三、Persistence（持久化）
+
+四、Privilege Escalation（权限提升）
+
+五、Defense Evasion（绕过防御）
+
+六、Credential Access（获取凭证）
+
+七、Discovery（基础信息收集）
+
+八、lateral-movement（横向渗透）
+
+九、C&C（命令控制）
+
+十、Exfiltration（信息窃取）
