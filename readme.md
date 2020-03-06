@@ -283,6 +283,7 @@ windows提权-快速查找exp（第一课）.pdf</br>
 下载地址①: 蓝奏云下载地址:  https://www.lanzous.com/b00nbhd1g
 密码:NSA  
 burp2020.1版本2030年过期(key有效期为10年)  
-
-
-
+</br>
+<h1>2020年3月6日</h1>
+<h2>CobaltStrike4.0用户手册_中文翻译.pdf</h2>
+下载地址:https://www.lanzous.com/i9zdeyf 密码:雨苁
