@@ -287,3 +287,23 @@ burp2020.1版本2030年过期(key有效期为10年)
 <h1>2020年3月6日</h1>
 <h2>CobaltStrike4.0用户手册_中文翻译.pdf</h2>
 下载地址:https://www.lanzous.com/i9zdeyf 密码:雨苁
+
+<h1>Awvs13破解版下载</h1>
+<h3>Acunetix Web Vulnerability Scanner 13 cracked</h3>
+
+<h4>破解过程{正确打开方式–安装–复制–替换}</h4>
+<br>
+① wvsc.exe覆盖到“C:\Program Files (x86)\Acunetix\13.0.200205121\<br>
+② license_info.json覆盖到“C:\ProgramData\Acunetix\shared\license”<br>
+
+<h3>Windows 下载地址：</h3>
+
+onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1cniixn7_sysu_edu_pl/Eal78fQQ1nFGhwkg1DzSi6QBnaH8l7O9Rg1fKw2RVpY2UQ?e=oUaR5v)
+
+解压密码: www.ddosi.com 
+
+<h3>linux 下载地址：</h3>
+
+onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1cniixn7_sysu_edu_pl/EUkoVMZaNlhDg1zl7Bnu5z8BzhFwNPulNuUFFKIxrg2qwA?e=gSqgjH)
+
+解压密码: www.ddosi.com 
