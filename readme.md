@@ -307,3 +307,11 @@ onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1c
 onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1cniixn7_sysu_edu_pl/EUkoVMZaNlhDg1zl7Bnu5z8BzhFwNPulNuUFFKIxrg2qwA?e=gSqgjH)
 
 解压密码: www.ddosi.com 
+
+<h1>2020年3月29日 upload_labs</h1>
+<h3>upload_labs_win_0.1.7z 上传漏洞实验 windows压缩包</h3>
+<h3>下载地址:</h3>
+
+蓝奏云网盘: https://www.lanzous.com/ialgr2b
+
+密码:ddosi
