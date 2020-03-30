@@ -1,4 +1,12 @@
-# hack 渗透测试资源库 收集各类渗透测试 信息安全相关的书籍 视频 思维导图
+[![](https://img.shields.io/badge/渗透测试-资源库-blue.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/信息安全-思维导图-008000.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/hack-暗网-FF0000.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/黑客工具-木马免杀-green.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/技能树-数据泄露-800000.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/Webshell-0day-8A2BE2.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/沙盒-APT-008B8B.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/提权-威胁建模-D2691E.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/Exploit-加密解密-008000.svg)](https://www.ddosi.com)
 
 |🔰🔰🔰🔰🔰🔰🔰🔰🔰|★★★★★★|🔰🔰🔰|ℒℒ|🔰🔰🔰🔰🔰|★★🔰★★|
 | :------------: | :------------: | :------------: | :------------: | :------------: |:------------: |
