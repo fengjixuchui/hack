@@ -258,6 +258,8 @@ windows提权-快速查找exp（第一课）.pdf</br>
 
 十、Exfiltration（信息窃取）
 
+[![](https://img.shields.io/badge/burpsuite_pro-V2020.1-blue.svg)](https://www.ddosi.com)
+
 <h2>下载地址: https://www.lanzous.com/i98gxne 密码:雨苁 </h2>
 <h1>2020年2月12日</h1>
 <h1>burpsuite_pro_v2020.1 破解版下载</h1>
@@ -290,6 +292,8 @@ onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1c
 
 解压密码: www.ddosi.com 
 
+[![](https://img.shields.io/badge/upload_labs-V0.1.7-blue.svg)](https://www.ddosi.com)
+
 <h1>2020年3月29日 upload_labs</h1>
 <h3>upload_labs_win_0.1.7z 上传漏洞实验 windows压缩包</h3>
 <h3>下载地址:</h3>
@@ -297,6 +301,8 @@ onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1c
 蓝奏云网盘: https://www.lanzous.com/ialgr2b
 
 密码:ddosi
+
+[![](https://img.shields.io/badge/owaasp-V2.9.0-blue.svg)](https://www.ddosi.com)
 
 <h1>owasp_zap_windows_v 2.9.0 2020年3月30日 </h1>
 <h3>owasp_zap_windows_v 2.9.0 下载地址</h3>
