@@ -304,7 +304,7 @@ onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1c
 
 密码:ddosi
 
-[![](https://img.shields.io/badge/owaasp-V2.9.0-blue.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/owasp-V2.9.0-blue.svg)](https://www.ddosi.com)
 
 <h1>owasp_zap_windows_v 2.9.0 2020年3月30日 </h1>
 <h3>owasp_zap_windows_v 2.9.0 下载地址</h3>
