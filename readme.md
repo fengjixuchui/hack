@@ -312,5 +312,25 @@ onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1c
 https://www.lanzous.com/iaskjbi
 
 密码:ddosi
-	
+
+---
+[![](https://badgen.net/badge/Burpsuite_pro/v_2020.2-cracked/blue?icon=bitcoin "雨苁网盘-问题反馈-QQ569743")](https://w.ddosi.workers.dev/)
+
+<h3>2020年4月17日</h3>
+<h1>burpsuite_pro_v2020.2 破解版下载</h1>
+
+下载地址①: onedrive下载地址:   [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1cniixn7_sysu_edu_pl/EX8ibJSerPZHtprmHvLYMo0BqVYasenECS9OzXpDxBPx9g?e=FxEbJm)
+
+下载地址②: 52破解网盘: [点击下载](https://down.52pojie.cn/Tools/Network_Analyzer/Burp_Suite_Pro_v2020.2_Loader_Keygen.zip)
+
+下载地址③: [w.ddosi.workers.dev](https://w.ddosi.workers.dev/%E9%9B%A8%E8%8B%81%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/burp/burp_suite_pro_v_2020.2/)  [![](https://badgen.net/badge/下载两个压缩包part1和part2/放在同一个目录下解压即可,解压密码ddosi.com/008000?icon=apple "雨苁网盘-问题反馈-QQ569743")](https://w.ddosi.workers.dev/)
+
+  
+[![](https://badgen.net/badge/解压密码:/ddosi.com/008000?icon=windows "雨苁网盘-问题反馈-QQ569743")](https://w.ddosi.workers.dev/)
+
+burp2020.2版本2030年过期(key有效期为10年) 
+
+---
+
 ![捐赠雨苁](https://xss001.oss-cn-beijing.aliyuncs.com/shubiao/wx.webp "捐赠雨苁,用于www.ddosi.con服务器运维")
+
