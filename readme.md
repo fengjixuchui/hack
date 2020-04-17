@@ -17,6 +17,7 @@
 |  [github.com/ddosi/hack](https://github.com/ddosi/hack "github.com/ddosi/hack") |  NSA  |  webshell  |[Html](https://www.ddosi.com/yj.html)    |  Hackerone  |APT|
 |[Joker](https://www.ddosi.com/b31/)|Exploit|[Tor](https://www.ddosi.com/tag/%e6%9a%97%e7%bd%91/)|NSA|[passwords](https://www.ddosi.com/mm.html)|奥里给|
 
+---
 爆破 未授权访问 远程代码执行 Java反序列 webshell 弱口令 认证绕过 缓冲区溢出注入攻击 Shift后门 TNS注入攻击
 
 攻击木马 定制端口 自我销毁 捆绑文件 修改图标 恶意程序破坏网站 捆绑在启动文件中 隐形于启动组中 在驱动程序中藏身 内置到注册表中 伪装在普通文件中 盗取我们的网游账号，威胁我们的虚拟财产的安全
@@ -101,6 +102,8 @@ oclhash破解
 	使用DNSdumpster查找子域名 
 	使用Sublist3r进行子域名枚举 
 	使用crt.sh查找一个组织主域名的子域名
+	
+---
 <h1>2020年2月4日</h1>
 <h1>渗透测试类书籍-123本 信安书籍</h1>
 
@@ -234,6 +237,7 @@ windows提权-快速查找exp（第一课）.pdf</br>
 高级持续渗透-第四季关于后门（第六十课）.pdf
 
 
+---
 <h1>2020年2月11日</h1>
 <h1>ATTCK-PenTester-Book</h1>
 
@@ -260,6 +264,8 @@ windows提权-快速查找exp（第一课）.pdf</br>
 
 十、Exfiltration（信息窃取）
 
+---
+
 [![](https://img.shields.io/badge/burpsuite_pro-V2020.1-blue.svg)](https://www.ddosi.com)
 
 <h2>下载地址: https://www.lanzous.com/i98gxne 密码:雨苁 </h2>
@@ -269,11 +275,13 @@ windows提权-快速查找exp（第一课）.pdf</br>
 下载地址①: 蓝奏云下载地址:  https://www.lanzous.com/b00nbhd1g
 密码:NSA  
 burp2020.1版本2030年过期(key有效期为10年)  
-</br>
+
+---
 <h1>2020年3月6日</h1>
 <h2>CobaltStrike4.0用户手册_中文翻译.pdf</h2>
 下载地址:https://www.lanzous.com/i9zdeyf 密码:雨苁
 
+---
 <h1>Awvs13破解版下载</h1>
 <h3>Acunetix Web Vulnerability Scanner 13 cracked</h3>
 
@@ -296,6 +304,7 @@ onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1c
 
 [![](https://img.shields.io/badge/upload_labs-V0.1.7-blue.svg)](https://www.ddosi.com)
 
+---
 <h1>2020年3月29日 upload_labs</h1>
 <h3>upload_labs_win_0.1.7z 上传漏洞实验 windows压缩包</h3>
 <h3>下载地址:</h3>
@@ -304,6 +313,7 @@ onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1c
 
 密码:ddosi
 
+---
 [![](https://img.shields.io/badge/owasp-V2.9.0-blue.svg)](https://www.ddosi.com)
 
 <h1>owasp_zap_windows_v 2.9.0 2020年3月30日 </h1>
