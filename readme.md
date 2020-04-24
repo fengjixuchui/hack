@@ -1,4 +1,14 @@
-# hack 渗透测试资源库 收集各类渗透测试 信息安全相关的书籍 视频 思维导图
+[![](https://badgen.net/badge/雨苁共享网盘/github所有上传的东西均可在该网盘下载,欢迎各位提交优秀资源/008000?icon=apple "雨苁网盘-问题反馈-QQ569743")](https://w.ddosi.workers.dev/)
+
+[![](https://img.shields.io/badge/渗透测试-资源库-blue.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/信息安全-思维导图-008000.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/hack-暗网-FF0000.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/黑客工具-木马免杀-green.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/技能树-数据泄露-800000.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/Webshell-0day-8A2BE2.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/沙盒-APT-008B8B.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/提权-威胁建模-D2691E.svg)](https://www.ddosi.com)
+[![](https://img.shields.io/badge/Exploit-加密解密-008000.svg)](https://www.ddosi.com)
 
 |🔰🔰🔰🔰🔰🔰🔰🔰🔰|★★★★★★|🔰🔰🔰|ℒℒ|🔰🔰🔰🔰🔰|★★🔰★★|
 | :------------: | :------------: | :------------: | :------------: | :------------: |:------------: |
@@ -7,6 +17,7 @@
 |  [github.com/ddosi/hack](https://github.com/ddosi/hack "github.com/ddosi/hack") |  NSA  |  webshell  |[Html](https://www.ddosi.com/yj.html)    |  Hackerone  |APT|
 |[Joker](https://www.ddosi.com/b31/)|Exploit|[Tor](https://www.ddosi.com/tag/%e6%9a%97%e7%bd%91/)|NSA|[passwords](https://www.ddosi.com/mm.html)|奥里给|
 
+---
 爆破 未授权访问 远程代码执行 Java反序列 webshell 弱口令 认证绕过 缓冲区溢出注入攻击 Shift后门 TNS注入攻击
 
 攻击木马 定制端口 自我销毁 捆绑文件 修改图标 恶意程序破坏网站 捆绑在启动文件中 隐形于启动组中 在驱动程序中藏身 内置到注册表中 伪装在普通文件中 盗取我们的网游账号，威胁我们的虚拟财产的安全
@@ -22,39 +33,13 @@ Web 应用安全联合威胁分类
 
 渗透测试执行标准:事前互动；
 
-情报收集；
+情报收集；   威胁建模；  漏洞分析；   漏洞利用；
 
-威胁建模；
+深度利用； 书面报告  恶意软件集合
 
-漏洞分析；
+匿名代理  蜜罐    恶意软件样本库   开源威胁情报    检测与分类
 
-漏洞利用；
-
-深度利用；
-
-书面报告
-
-恶意软件集合
-
-匿名代理
-
-蜜罐
-
-恶意软件样本库
-
-开源威胁情报
-
-检测与分类
-
-在线扫描与沙盒
-
-域名分析
-
-浏览器恶意软件
-
-维基解密
-
-MD5
+在线扫描与沙盒   域名分析   浏览器恶意软件   维基解密   MD5
 
 判断是否有注入﻿ 初步判断是否是mssql 判断数据库系统 注入参数是字符 搜索时没过滤参数的 猜数据库 猜字段 猜字段中记录长度﻿ 猜字段的ascii值（access） 猜字段的ascii值（mssql） 测试权限结构（mssql）添加mssql和系统的帐户 遍历目录
 渗透测试信息收集续 服务器信息 DNS枚举 敏感目录发掘 主机发现
@@ -117,6 +102,8 @@ oclhash破解
 	使用DNSdumpster查找子域名 
 	使用Sublist3r进行子域名枚举 
 	使用crt.sh查找一个组织主域名的子域名
+	
+---
 <h1>2020年2月4日</h1>
 <h1>渗透测试类书籍-123本 信安书籍</h1>
 
@@ -250,6 +237,7 @@ windows提权-快速查找exp（第一课）.pdf</br>
 高级持续渗透-第四季关于后门（第六十课）.pdf
 
 
+---
 <h1>2020年2月11日</h1>
 <h1>ATTCK-PenTester-Book</h1>
 
@@ -276,6 +264,10 @@ windows提权-快速查找exp（第一课）.pdf</br>
 
 十、Exfiltration（信息窃取）
 
+---
+
+[![](https://img.shields.io/badge/burpsuite_pro-V2020.1-blue.svg)](https://www.ddosi.com)
+
 <h2>下载地址: https://www.lanzous.com/i98gxne 密码:雨苁 </h2>
 <h1>2020年2月12日</h1>
 <h1>burpsuite_pro_v2020.1 破解版下载</h1>
@@ -283,11 +275,13 @@ windows提权-快速查找exp（第一课）.pdf</br>
 下载地址①: 蓝奏云下载地址:  https://www.lanzous.com/b00nbhd1g
 密码:NSA  
 burp2020.1版本2030年过期(key有效期为10年)  
-</br>
+
+---
 <h1>2020年3月6日</h1>
 <h2>CobaltStrike4.0用户手册_中文翻译.pdf</h2>
 下载地址:https://www.lanzous.com/i9zdeyf 密码:雨苁
 
+---
 <h1>Awvs13破解版下载</h1>
 <h3>Acunetix Web Vulnerability Scanner 13 cracked</h3>
 
@@ -307,3 +301,46 @@ onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1c
 onedrive网盘 : [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1cniixn7_sysu_edu_pl/EUkoVMZaNlhDg1zl7Bnu5z8BzhFwNPulNuUFFKIxrg2qwA?e=gSqgjH)
 
 解压密码: www.ddosi.com 
+
+[![](https://img.shields.io/badge/upload_labs-V0.1.7-blue.svg)](https://www.ddosi.com)
+
+---
+<h1>2020年3月29日 upload_labs</h1>
+<h3>upload_labs_win_0.1.7z 上传漏洞实验 windows压缩包</h3>
+<h3>下载地址:</h3>
+
+蓝奏云网盘: https://www.lanzous.com/ialgr2b
+
+密码:ddosi
+
+---
+[![](https://img.shields.io/badge/owasp-V2.9.0-blue.svg)](https://www.ddosi.com)
+
+<h1>owasp_zap_windows_v 2.9.0 2020年3月30日 </h1>
+<h3>owasp_zap_windows_v 2.9.0 下载地址</h3>
+
+https://www.lanzous.com/iaskjbi
+
+密码:ddosi
+
+---
+[![](https://badgen.net/badge/Burpsuite_pro/v_2020.2-cracked/blue?icon=bitcoin "雨苁网盘-问题反馈-QQ569743")](https://w.ddosi.workers.dev/)
+
+<h3>2020年4月17日</h3>
+<h1>burpsuite_pro_v2020.2 破解版下载</h1>
+
+下载地址①: onedrive下载地址:   [点击下载](https://le6-my.sharepoint.com/:u:/g/personal/s1cniixn7_sysu_edu_pl/EX8ibJSerPZHtprmHvLYMo0BqVYasenECS9OzXpDxBPx9g?e=FxEbJm)
+
+下载地址②: 52破解网盘: [点击下载](https://down.52pojie.cn/Tools/Network_Analyzer/Burp_Suite_Pro_v2020.2_Loader_Keygen.zip)
+
+下载地址③: [w.ddosi.workers.dev](https://w.ddosi.workers.dev/%E9%9B%A8%E8%8B%81%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/burp/burp_suite_pro_v_2020.2/)  [![](https://badgen.net/badge/下载两个压缩包part1和part2/放在同一个目录下解压即可,解压密码ddosi.com/008000?icon=apple "雨苁网盘-问题反馈-QQ569743")](https://w.ddosi.workers.dev/)
+
+  
+[![](https://badgen.net/badge/解压密码:/ddosi.com/008000?icon=windows "雨苁网盘-问题反馈-QQ569743")](https://w.ddosi.workers.dev/)
+
+burp2020.2版本2030年过期(key有效期为10年) 
+
+---
+
+![捐赠雨苁](https://xss001.oss-cn-beijing.aliyuncs.com/shubiao/wx.webp "捐赠雨苁,用于www.ddosi.con服务器运维")
+
