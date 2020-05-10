@@ -1,5 +1,3 @@
----
-
 [![](https://badgen.net/badge/CobaltStrike/v_4.0_cracked/cyan?icon=apple "雨苁网盘-问题反馈-QQ569743")](https://w.ddosi.workers.dev/)
 
 <h3>2020年5月10日</h3>
