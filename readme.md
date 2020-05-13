@@ -379,7 +379,7 @@ burp2020.4版本2030年过期(key有效期为10年)
 [![](https://badgen.net/badge/cobaltstrike4.0/CobaltStrike4.0_用户手册_中文翻译.pdf/008000?icon=windows "雨苁网盘-问题反馈-QQ569743")](https://w.ddosi.workers.dev/%E9%9B%A8%E8%8B%81%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/CobaltStrike4.0/CobaltStrike4.0%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C_%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91.pdf)
 
 ---
-![捐赠雨苁](https://xss001.oss-cn-beijing.aliyuncs.com/shubiao/wx.webp "捐赠雨苁,用于www.ddosi.con服务器运维")
+![捐赠雨苁](https://xss001.oss-cn-beijing.aliyuncs.com/img/wx.jpg "捐赠雨苁,用于www.ddosi.con服务器运维")
 
 ---
 
